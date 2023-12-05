@@ -1,0 +1,116 @@
+
+body{
+    
+    display:flex;
+    background-image: url("giv.webp");
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+
+    width:350px;
+    height: 355px;
+    display: block;
+    background: #fff;
+    box-shadow:  2px 2px 2px #bebebe,
+    -1px -2px 11px 2px #bebebe;
+
+}
+.header_container{
+
+    margin: 32px;
+}
+
+form{  
+    margin: 31px;
+}
+
+form h5 a{
+       font-size: 0.6rem;
+       text-decoration: none;
+       color: hsl(206, 82%, 54%);
+}
+
+input{
+    width: 275px;
+    height: 26px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+    background-color: #f6f8fc;
+    
+    
+}
+
+input[type="email"]{
+    padding-left: 7px;
+    height: 2.2em;
+    
+
+}
+input[type="password"]{
+    padding-left: 7px;
+    height: 2.2em;
+    
+
+}
+
+input:hover{
+
+    background-color:#f4f4f4 ;
+    border: 2px solid hsl(206, 82%, 54%);
+}
+
+.next-btn button{
+
+    background-color: hsl(206, 82%, 54%);
+    border: 1px solid  hsl(206, 82%, 54%);
+    padding: 7px 126px;
+    color: white;
+    
+    
+   
+}
+.next-btn button:hover{
+
+    background-color: #f4f4f4;
+    box-shadow: #bebebe 1px 1px 2px;
+}
+   
+
+
+img{
+    margin-right:auto;
+    margin-left:auto;
+    display: block;
+}
+
+label{
+    font-size: 13px;
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ 
+
+button{
+    font-size: 16px;
+    border-width: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    
+}
+.accept{
+    display: flex;
+}
+
+h6{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+
+}
